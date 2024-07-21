@@ -49,10 +49,10 @@ export default function JwtLoginView() {
   //   email: 'sahanrandika28@gmail.com', //user
   //   password: 'sahan',
   // };
-  const defaultValues = {
-    email: 'randikasahan@gmail.com', //admin
-    password: 'randika',
-  };
+  // const defaultValues = {
+  //   email: 'randikasahan@gmail.com', //admin
+  //   password: 'randika',
+  // };
 
   const methods = useForm({
     resolver: yupResolver(LoginSchema),
