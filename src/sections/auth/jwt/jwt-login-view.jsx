@@ -54,6 +54,11 @@ export default function JwtLoginView() {
   //   password: 'randika',
   // };
 
+  const defaultValues = {
+    email: '', //admin
+    password: '',
+  };
+
   const methods = useForm({
     resolver: yupResolver(LoginSchema),
     defaultValues,
